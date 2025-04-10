@@ -1,8 +1,22 @@
 # 🎮 SteamIndex
 
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/mot204t/SteamIndex)
+[![Platform](https://img.shields.io/badge/Platform-Windows-blue)](https://github.com/mot204t/SteamIndex)
+
 A **modern desktop application** for exploring the complete Steam application database.  
 SteamIndex offers a **sleek, responsive interface** to browse, search, and deep-dive into detailed data on thousands of Steam apps — even offline.
 
+![Steam Index](assets/logo.png)
+
+## 📋 Table of Contents
+- [Features](#-features)
+- [Installation](#-installation)
+- [Database Files](#-database-files)
+- [Usage Guide](#-usage-guide) 
+- [Logging](#-logging)
+- [License](#-license)
+- [Contact](#-contact)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -27,15 +41,14 @@ SteamIndex offers a **sleek, responsive interface** to browse, search, and deep-
   Full functionality even without an internet connection.
 
 - 🌙 **Dark Theme UI**  
-  Clean, modern interface that’s easy on the eyes — optimized for extended use.
+  Clean, modern interface that's easy on the eyes — optimized for extended use.
 
 - 📝 **Centralized Logging**  
   Automatic event logging to timestamped files for diagnostics and debugging.
 
 ---
 
-
-### 📦 Setup
+## 📦 Installation
 
 ```bash
 # 1. Clone the repository
@@ -46,18 +59,14 @@ cd SteamIndex
 start SteamIndex.exe
 ```
 
----
-
 ## 🗃 Database Files
 
 SteamIndex requires local database files to function:
 
-- `data/appiddb/appiddb-v2.json` → **Primary DataBase**
-- `data/appiddb/appiddb-v1.json` → **Secondary DataBase**
+- `data/appiddb/appiddb-v2.json` → **Primary Database**
+- `data/appiddb/appiddb-v1.json` → **Secondary Database**
 
 On first launch, the necessary directory structure is **auto-created**. Ensure the database files are present in the correct paths.
-
----
 
 ## 💡 Usage Guide
 
@@ -76,10 +85,6 @@ On first launch, the necessary directory structure is **auto-created**. Ensure t
 5. **Export**:  
    Use the export button to save your results in the format you need.
 
----
-
----
-
 ## 📑 Logging
 
 All events and errors are logged into the `logs/` folder.  
@@ -90,25 +95,14 @@ logs_YYYY-MM-DD_HH-MM-SS.txt
 
 Useful for debugging and tracing user activity.
 
----
-
-## 🤝 Contributing
-
-We welcome contributions!  
-Feel free to:
-
-- Fork the repo & submit pull requests
-- Open issues for bugs or suggestions
-- Share the project with the community
-
----
-
 ## 📄 License
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for full details.
+This project has no license.
 
----
+## 📞 Contact
+
+If you have any issue feel free to contact me through discord:  
+**Discord Username**: `mot204t`
 
 ## 🙌 Acknowledgments
 
