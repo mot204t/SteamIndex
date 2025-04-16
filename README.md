@@ -6,7 +6,7 @@
 A **modern desktop application** for exploring the complete Steam application database.  
 SteamIndex offers a **sleek, responsive interface** to browse, search, and deep-dive into detailed data on thousands of Steam apps — even offline.
 
-![Steam Index](assets/icons/logo.png)
+![Steam Index](assets/github/logo.png)
 
 ## 📋 Table of Contents
 - [Features](#-features)
